@@ -1,197 +1,43 @@
-[02:42:52] [Server thread/INFO]: Arka[/51.171.147.236:55836] logged in with entity id 14780 at (1205.946458884996, 63.0, 4053.0441850333164)
-[02:42:52] [Server thread/INFO]: Arka joined the game
-[02:48:38] [Server thread/INFO]: Arka lost connection: Disconnected
-[02:48:38] [Server thread/INFO]: Arka left the game
-[02:48:44] [Server thread/INFO]: Arka[/51.171.147.236:55889] logged in with entity id 15893 at (1209.3961461073586, 63.0, 4034.5703881423988)
-[02:48:44] [Server thread/INFO]: Arka joined the game
-[02:49:08] [Server thread/INFO]: Arka lost connection: Disconnected
-[02:49:08] [Server thread/INFO]: Arka left the game
-[02:49:35] [Server thread/INFO]: Arka[/51.171.147.236:55902] logged in with entity id 16154 at (1207.675076103807, 62.0, 4042.7155854846774)
-[02:49:35] [Server thread/INFO]: Arka joined the game
-[02:50:35] [Server thread/INFO]: Arka lost connection: Disconnected
-[02:50:35] [Server thread/INFO]: Arka left the game
-[02:51:35] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[05:25:17] [Netty Epoll Server IO #0/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at zl.a(SourceFile:50) ~[server-1.21.6.jar:?]
-	at zl.encode(SourceFile:14) ~[server-1.21.6.jar:?]
-	at wr.a(SourceFile:26) ~[server-1.21.6.jar:?]
-	at wr.encode(SourceFile:12) ~[server-1.21.6.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at wd$2.write(SourceFile:525) ~[server-1.21.6.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at wd.c(SourceFile:351) ~[server-1.21.6.jar:?]
-	at wd.b(SourceFile:343) ~[server-1.21.6.jar:?]
-	at wd.a(SourceFile:325) ~[server-1.21.6.jar:?]
-	at wd.a(SourceFile:319) ~[server-1.21.6.jar:?]
-	at wd.exceptionCaught(SourceFile:170) ~[server-1.21.6.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[07:19:05] [Netty Epoll Server IO #1/ERROR]: Error sending packet clientbound/minecraft:disconnect
-io.netty.handler.codec.EncoderException: Sending unknown packet 'clientbound/minecraft:disconnect'
-	at zl.a(SourceFile:50) ~[server-1.21.6.jar:?]
-	at zl.encode(SourceFile:14) ~[server-1.21.6.jar:?]
-	at wr.a(SourceFile:26) ~[server-1.21.6.jar:?]
-	at wr.encode(SourceFile:12) ~[server-1.21.6.jar:?]
-	at io.netty.handler.codec.MessageToByteEncoder.write(MessageToByteEncoder.java:107) ~[netty-codec-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite(AbstractChannelHandlerContext.java:875) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:984) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:868) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.ChannelOutboundHandlerAdapter.write(ChannelOutboundHandlerAdapter.java:113) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at wd$2.write(SourceFile:525) ~[server-1.21.6.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWrite0(AbstractChannelHandlerContext.java:893) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeWriteAndFlush(AbstractChannelHandlerContext.java:956) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.write(AbstractChannelHandlerContext.java:982) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:950) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.writeAndFlush(AbstractChannelHandlerContext.java:1000) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.writeAndFlush(DefaultChannelPipeline.java:974) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannel.writeAndFlush(AbstractChannel.java:305) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at wd.c(SourceFile:351) ~[server-1.21.6.jar:?]
-	at wd.b(SourceFile:343) ~[server-1.21.6.jar:?]
-	at wd.a(SourceFile:325) ~[server-1.21.6.jar:?]
-	at wd.a(SourceFile:319) ~[server-1.21.6.jar:?]
-	at wd.exceptionCaught(SourceFile:170) ~[server-1.21.6.jar:?]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.fireExceptionCaught(AbstractChannelHandlerContext.java:317) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline$HeadContext.exceptionCaught(DefaultChannelPipeline.java:1324) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:346) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.AbstractChannelHandlerContext.invokeExceptionCaught(AbstractChannelHandlerContext.java:325) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.DefaultChannelPipeline.fireExceptionCaught(DefaultChannelPipeline.java:856) ~[netty-transport-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.handleReadException(AbstractEpollStreamChannel.java:727) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.AbstractEpollStreamChannel$EpollStreamUnsafe.epollInReady(AbstractEpollStreamChannel.java:825) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.processReady(EpollEventLoop.java:501) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.channel.epoll.EpollEventLoop.run(EpollEventLoop.java:399) ~[netty-transport-classes-epoll-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.concurrent.SingleThreadEventExecutor$4.run(SingleThreadEventExecutor.java:998) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at io.netty.util.internal.ThreadExecutorMap$2.run(ThreadExecutorMap.java:74) ~[netty-common-4.1.118.Final.jar:4.1.118.Final]
-	at java.base/java.lang.Thread.run(Thread.java:1583) [?:?]
-[18:10:00] [Server thread/INFO]: TheRevi[/185.228.142.53:51930] logged in with entity id 16502 at (1206.1593096137512, 63.0, 4053.5305987497873)
-[18:10:00] [Server thread/INFO]: TheRevi joined the game
-[18:16:36] [Server thread/INFO]: TheRevi lost connection: Disconnected
-[18:16:36] [Server thread/INFO]: TheRevi left the game
-[18:17:36] [Server thread/INFO]: Server empty for 60 seconds, pausing
-[18:23:04] [Server thread/INFO]: TheRevi[/185.228.142.53:54689] logged in with entity id 18101 at (1204.0259038034815, 63.0, 4043.5001621875667)
-[18:23:04] [Server thread/INFO]: TheRevi joined the game
-[18:26:19] [Server thread/INFO]: TheRevi lost connection: Disconnected
-[18:26:19] [Server thread/INFO]: TheRevi left the game
-[18:26:25] [Server thread/INFO]: TheRevi[/185.228.142.53:52120] logged in with entity id 19242 at (1217.61933632382, 63.0, 4039.5972638070502)
-[18:26:25] [Server thread/INFO]: TheRevi joined the game
-[18:26:54] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[18:26:54] [Server thread/INFO]: [A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[A[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[B[Bsave-all<--[HERE]
-[18:26:57] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[18:26:57] [Server thread/INFO]: save all<--[HERE]
-[18:26:59] [Server thread/INFO]: Unknown or incomplete command, see below for error
-[18:26:59] [Server thread/INFO]: save<--[HERE]
-[18:27:02] [Server thread/INFO]: /advancement (grant|revoke)
-[18:27:02] [Server thread/INFO]: /attribute <target> <attribute> (get|base|modifier)
-[18:27:02] [Server thread/INFO]: /execute (run|if|unless|as|at|store|positioned|rotated|facing|align|anchored|in|summon|on)
-[18:27:02] [Server thread/INFO]: /bossbar (add|remove|list|set|get)
-[18:27:02] [Server thread/INFO]: /clear [<targets>]
-[18:27:02] [Server thread/INFO]: /clone (<begin>|from)
-[18:27:02] [Server thread/INFO]: /damage <target> <amount> [<damageType>]
-[18:27:02] [Server thread/INFO]: /data (merge|get|remove|modify)
-[18:27:02] [Server thread/INFO]: /datapack (enable|disable|list|create)
-[18:27:02] [Server thread/INFO]: /debug (start|stop|function)
-[18:27:02] [Server thread/INFO]: /defaultgamemode <gamemode>
-[18:27:02] [Server thread/INFO]: /dialog (show|clear)
-[18:27:02] [Server thread/INFO]: /difficulty [peaceful|easy|normal|hard]
-[18:27:02] [Server thread/INFO]: /effect (clear|give)
-[18:27:02] [Server thread/INFO]: /me <action>
-[18:27:02] [Server thread/INFO]: /enchant <targets> <enchantment> [<level>]
-[18:27:02] [Server thread/INFO]: /experience (add|set|query)
-[18:27:02] [Server thread/INFO]: /xp -> experience
-[18:27:02] [Server thread/INFO]: /fill <from> <to> <block> [outline|hollow|destroy|strict|replace|keep]
-[18:27:02] [Server thread/INFO]: /fillbiome <from> <to> <biome> [replace]
-[18:27:02] [Server thread/INFO]: /forceload (add|remove|query)
-[18:27:02] [Server thread/INFO]: /function <name> [<arguments>|with]
-[18:27:02] [Server thread/INFO]: /gamemode <gamemode> [<target>]
-[18:27:02] [Server thread/INFO]: /gamerule (allowFireTicksAwayFromPlayer|announceAdvancements|blockExplosionDropDecay|commandBlockOutput|commandModificationBlockLimit|disableElytraMovementCheck|disablePlayerMovementCheck|disableRaids|doDaylightCycle|doEntityDrops|doFireTick|doImmediateRespawn|doInsomnia|doLimitedCrafting|doMobLoot|doMobSpawning|doPatrolSpawning|doTileDrops|doTraderSpawning|doVinesSpread|doWardenSpawning|doWeatherCycle|drowningDamage|enderPearlsVanishOnDeath|fallDamage|fireDamage|forgiveDeadPlayers|freezeDamage|globalSoundEvents|keepInventory|lavaSourceConversion|locatorBar|logAdminCommands|maxCommandChainLength|maxCommandForkCount|maxEntityCramming|mobExplosionDropDecay|mobGriefing|naturalRegeneration|playersNetherPortalCreativeDelay|playersNetherPortalDefaultDelay|playersSleepingPercentage|projectilesCanBreakBlocks|randomTickSpeed|reducedDebugInfo|sendCommandFeedback|showDeathMessages|snowAccumulationHeight|spawnChunkRadius|spawnRadius|spectatorsGenerateChunks|tntExplodes|tntExplosionDropDecay|universalAnger|waterSourceConversion)
-[18:27:02] [Server thread/INFO]: /give <targets> <item> [<count>]
-[18:27:02] [Server thread/INFO]: /help [<command>]
-[18:27:02] [Server thread/INFO]: /item (replace|modify)
-[18:27:02] [Server thread/INFO]: /kick <targets> [<reason>]
-[18:27:02] [Server thread/INFO]: /kill [<targets>]
-[18:27:02] [Server thread/INFO]: /list [uuids]
-[18:27:02] [Server thread/INFO]: /locate (structure|biome|poi)
-[18:27:02] [Server thread/INFO]: /loot (replace|insert|give|spawn)
-[18:27:02] [Server thread/INFO]: /msg <targets> <message>
-[18:27:02] [Server thread/INFO]: /tell -> msg
-[18:27:02] [Server thread/INFO]: /w -> msg
-[18:27:02] [Server thread/INFO]: /particle <name> [<pos>]
-[18:27:02] [Server thread/INFO]: /place (feature|jigsaw|structure|template)
-[18:27:02] [Server thread/INFO]: /playsound <sound> [master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
-[18:27:02] [Server thread/INFO]: /random (value|roll|reset)
-[18:27:02] [Server thread/INFO]: /reload
-[18:27:02] [Server thread/INFO]: /recipe (give|take)
-[18:27:02] [Server thread/INFO]: /return (<value>|fail|run)
-[18:27:02] [Server thread/INFO]: /ride <target> (mount|dismount)
-[18:27:02] [Server thread/INFO]: /rotate <target> (<rotation>|facing)
-[18:27:02] [Server thread/INFO]: /say <message>
-[18:27:02] [Server thread/INFO]: /schedule (function|clear)
-[18:27:02] [Server thread/INFO]: /scoreboard (objectives|players)
-[18:27:02] [Server thread/INFO]: /seed
-[18:27:02] [Server thread/INFO]: /version
-[18:27:02] [Server thread/INFO]: /setblock <pos> <block> [destroy|keep|replace|strict]
-[18:27:02] [Server thread/INFO]: /spawnpoint [<targets>]
-[18:27:02] [Server thread/INFO]: /setworldspawn [<pos>]
-[18:27:02] [Server thread/INFO]: /spectate [<target>]
-[18:27:02] [Server thread/INFO]: /spreadplayers <center> <spreadDistance> <maxRange> (<respectTeams>|under)
-[18:27:02] [Server thread/INFO]: /stopsound <targets> [*|master|music|record|weather|block|hostile|neutral|player|ambient|voice|ui]
-[18:27:02] [Server thread/INFO]: /summon <entity> [<pos>]
-[18:27:02] [Server thread/INFO]: /tag <targets> (add|remove|list)
-[18:27:02] [Server thread/INFO]: /team (list|add|remove|empty|join|leave|modify)
-[18:27:02] [Server thread/INFO]: /teammsg <message>
-[18:27:02] [Server thread/INFO]: /tm -> teammsg
-[18:27:02] [Server thread/INFO]: /teleport (<location>|<destination>|<targets>)
-[18:27:02] [Server thread/INFO]: /tp -> teleport
-[18:27:02] [Server thread/INFO]: /tellraw <targets> <message>
-[18:27:02] [Server thread/INFO]: /test (run|runmultiple|runthese|runclosest|runthat|runfailed|verify|locate|resetclosest|resetthese|resetthat|clearthat|clearthese|clearall|stop|pos|create)
-[18:27:02] [Server thread/INFO]: /tick (query|rate|step|sprint|unfreeze|freeze)
-[18:27:02] [Server thread/INFO]: /time (set|add|query)
-[18:27:02] [Server thread/INFO]: /title <targets> (clear|reset|title|subtitle|actionbar|times)
-[18:27:02] [Server thread/INFO]: /trigger <objective> [add|set]
-[18:27:02] [Server thread/INFO]: /waypoint (list|modify)
-[18:27:02] [Server thread/INFO]: /weather (clear|rain|thunder)
-[18:27:02] [Server thread/INFO]: /worldborder (add|set|center|damage|get|warning)
-[18:27:02] [Server thread/INFO]: /jfr (start|stop)
-[18:27:02] [Server thread/INFO]: /ban-ip <target> [<reason>]
-[18:27:02] [Server thread/INFO]: /banlist [ips|players]
-[18:27:02] [Server thread/INFO]: /ban <targets> [<reason>]
-[18:27:02] [Server thread/INFO]: /deop <targets>
-[18:27:02] [Server thread/INFO]: /op <targets>
-[18:27:02] [Server thread/INFO]: /pardon <targets>
-[18:27:02] [Server thread/INFO]: /pardon-ip <target>
-[18:27:02] [Server thread/INFO]: /perf (start|stop)
-[18:27:02] [Server thread/INFO]: /save-all [flush]
-[18:27:02] [Server thread/INFO]: /save-off
-[18:27:02] [Server thread/INFO]: /save-on
-[18:27:02] [Server thread/INFO]: /setidletimeout <minutes>
-[18:27:02] [Server thread/INFO]: /stop
-[18:27:02] [Server thread/INFO]: /transfer <hostname> [<port>]
-[18:27:02] [Server thread/INFO]: /whitelist (on|off|list|add|remove|reload)
-[18:27:07] [Server thread/INFO]: Saving the game (this may take a moment!)
-[18:27:07] [Server thread/INFO]: Saved the game
+[19:31:37] [ServerMain/INFO]: Environment: Environment[sessionHost=https://sessionserver.mojang.com, servicesHost=https://api.minecraftservices.com, name=PROD]
+[19:31:39] [ServerMain/INFO]: Loaded 1407 recipes
+[19:31:39] [ServerMain/INFO]: Loaded 1520 advancements
+[19:31:39] [Server thread/INFO]: Starting minecraft server version 1.21.6
+[19:31:39] [Server thread/INFO]: Loading properties
+[19:31:39] [Server thread/INFO]: Default game type: SURVIVAL
+[19:31:39] [Server thread/INFO]: Generating keypair
+[19:31:39] [Server thread/INFO]: Starting Minecraft server on *:28115
+[19:31:39] [Server thread/INFO]: Using epoll channel type
+[19:31:40] [Server thread/INFO]: Preparing level "world"
+[19:31:40] [Server thread/INFO]: Preparing start region for dimension minecraft:overworld
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Worker-Main-1/INFO]: Preparing spawn area: 0%
+[19:31:48] [Server thread/INFO]: Time elapsed: 7884 ms
+[19:31:48] [Server thread/INFO]: Done (8.234s)! For help, type "help"
+[19:32:09] [User Authenticator #1/INFO]: UUID of player TheRevi is ef5c1121-324c-483a-9179-4d68d9b7cc40
+[19:32:09] [Server thread/INFO]: TheRevi[/185.228.142.53:52873] logged in with entity id 5 at (1213.9553175389772, 63.0, 4075.101848099411)
+[19:32:09] [Server thread/INFO]: TheRevi joined the game
+[19:34:04] [Server thread/INFO]: TheRevi has made the advancement [The Parrots and the Bats]
+[19:36:26] [Server thread/INFO]: [TheRevi: Set own game mode to Creative Mode]
+[19:36:32] [Server thread/INFO]: TheRevi has made the advancement [Monster Hunter]
+[19:36:35] [Server thread/INFO]: TheRevi has made the advancement [Stone Age]
+[19:44:37] [Server thread/INFO]: TheRevi lost connection: Disconnected
+[19:44:37] [Server thread/INFO]: TheRevi left the game
+[19:45:37] [Server thread/INFO]: Server empty for 60 seconds, pausing
+[19:54:16] [User Authenticator #2/INFO]: UUID of player TheRevi is ef5c1121-324c-483a-9179-4d68d9b7cc40
+[19:54:16] [Server thread/INFO]: TheRevi[/185.228.142.53:53311] logged in with entity id 2617 at (1202.9865411226708, 65.15814676123665, 4057.0203698235264)
+[19:54:16] [Server thread/INFO]: TheRevi joined the game
+[19:54:37] [Server thread/INFO]: [TheRevi: Set spawn point to 1213, 63, 4052 [0.0] in minecraft:overworld for TheRevi]
